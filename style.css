@@ -1,0 +1,80 @@
+body {
+    background: black;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+    margin-top: -90px;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #222;
+	border-bottom: 100px solid transparent;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+    margin-top: 80px;
+    margin-left: 8px;
+	border-right: 100px solid transparent;
+    border-top: 100px solid #222;
+	border-left: 100px solid transparent;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+    margin-top: -200px;
+    margin-left: 116px;
+	border-top: 100px solid transparent;
+	border-right: 100px solid #222;
+	border-bottom: 100px solid transparent;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+    margin-top: -90px;
+    margin-left: 8px;
+    border-bottom: 100px solid #222;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+}
+.h1t,.h2t,.m1t,.m2t {
+	margin-bottom : 0px;
+}
+.h1b,.h2b,.m1b,.m2b{
+	margin-top : -66px;
+}
+
+.OneOn{
+    border-top: 100px solid #BBB;
+}
+.TwoOn{
+    border-left: 100px solid #BBB;
+}
+.ThreeOn{
+    border-right: 100px solid #BBB;
+}
+.FourOn{
+    border-bottom: 100px solid #BBB;
+}
+
+#wrapper {
+    display:table;
+    width:940px;
+    margin: 0 auto;
+}
+
+#h1 {
+  display:table-cell;
+  width:25%;
+}
+#h2 {
+  display:table-cell;
+  width:25%;
+}
+#m1 {
+  display:table-cell;
+  width:25%;
+}
+#m2 {
+  display:table-cell;
+  width:25%;
+}
