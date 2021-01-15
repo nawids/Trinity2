@@ -37,7 +37,7 @@ body {
 	border-right: 100px solid transparent;
 }
 .h1t,.h2t,.m1t,.m2t {
-	margin-bottom : 0px;
+	margin-bottom : 0;
 }
 .h1b,.h2b,.m1b,.m2b{
 	margin-top : -66px;
